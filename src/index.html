@@ -1,0 +1,27 @@
+    <div class="container">
+        <div class="login">
+            <span>Sohbete bağlanmak için isminizi giriniz</span>
+            <input type="text" id="myName" placeholder="İsim Giriniz" autocomplete="off">
+            <button onclick="sohbeteBasla();"><i class="fa fa-comment"></i> Sohbete Başla</button>
+        </div>
+        <h2>Sohbet</h2>
+        <ul id="messages" class="messages">
+            <li class="message">
+                <p class="text">TCF, hazır kodları neden paylaşmıyorsun ? Kopyala yapıştır yapalım işte...</p>
+                <span class="sender">Abone</span>
+                <span class="date">12:00</span>
+            </li>
+            <li class="message mine">
+                <p class="text">Çünkü birşeyler öğrenmeni istiyorum !!!</p>
+                <span class="date">12:00</span>
+            </li>
+            <li class="message mine">
+                <p class="text">Kopyacı olmanı değil !!!</p>
+                <span class="date">12:00</span>
+            </li>
+        </ul>
+        <div class="input">
+            <input type="text" id="myInput">
+            <button onclick="mesajGonder();"><i class="fa fa-paper-plane"></i></button>
+        </div>
+    </div>
